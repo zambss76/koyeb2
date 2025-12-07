@@ -25,13 +25,19 @@
         "network": "xhttp",
         "security": "none",
         "xhttpSettings": {
-          "path": "/b3a053a4",
-          "mode": "auto"
+          "host": "",
+          "mode": "auto",
+          "path": "/b4386f03"
         }
       },
       "sniffing": {
-        "enabled": true,
-        "destOverride": ["http", "tls", "fakedns"]
+        "destOverride": [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled": true
       },
       "tag": "vless-inbound"
     }
